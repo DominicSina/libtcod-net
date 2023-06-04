@@ -74,7 +74,7 @@ namespace libtcod.tests
 
 		static void TestNamegen ()
 		{
-			NameGenerator.LoadSyllableFile ("namegen/mingos_town.cfg");
+			NameGenerator.LoadSyllableFile ("data/namegen/mingos_town.cfg");
 			Console.WriteLine (NameGenerator.Generate ("Mingos town"));
 			foreach (var item in NameGenerator.GetSet ())
 				Console.WriteLine (item);

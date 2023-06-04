@@ -305,7 +305,11 @@ namespace libtcod
 	{
 		GLSL,
 		OPENGL,
-		SDL
+		SDL,
+		SDL2,
+		OPENGL2,
+		XTERM,
+		NB_RENDERERS
 	}
 
 	public class RootConsoleWindow : ConsoleWindow
