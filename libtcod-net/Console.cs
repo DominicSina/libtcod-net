@@ -106,7 +106,7 @@ namespace libtcod
 			TCOD_console_put_char (Handle, p.X, p.Y, (int)c, flag.Value);
 		}
 
-		public void PutChar (Point p, byte c, Background flag)
+		public void PutChar (Point p, int c, Background flag)
 		{
 			TCOD_console_put_char (Handle, p.X, p.Y, c, flag.Value);
 		}
@@ -116,7 +116,7 @@ namespace libtcod
 			TCOD_console_put_char (Handle, p.X, p.Y, (int)c, (int)BackgroundFlag.Set);
 		}
 
-		public void PutChar (Point p, byte c)
+		public void PutChar (Point p, int c)
 		{
 			TCOD_console_put_char (Handle, p.X, p.Y, c, (int)BackgroundFlag.Set);
 		}
