@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BSP.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="ConsoleInit.cs" />
     <Compile Include="Tileset.cs" />
     <Compile Include="Color.cs" />
     <Compile Include="Console.cs" />

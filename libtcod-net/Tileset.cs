@@ -29,9 +29,9 @@ namespace libtcod
         //    const char* filename, int columns, int rows, int n, const int* __restrict charmap);
         [DllImport(Constants.LibraryName, CallingConvention = CallingConvention.Cdecl)]
         public static extern IntPtr TCOD_tileset_load(
-            [MarshalAs(UnmanagedType.LPStr)] string filename, 
-            int columns, 
-            int rows, 
+            [MarshalAs(UnmanagedType.LPStr)] string filename,
+            int columns,
+            int rows,
             int n,
             [In, Out] int[] charmap);
 
